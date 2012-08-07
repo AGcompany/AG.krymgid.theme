@@ -1,0 +1,53 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    i18n_domain="AG.theme">
+
+  <!-- 'AG.krymgid.theme' Zope 3 browser layer
+    Register views, viewlets and resources for this layer to make sure
+    they only apply to the 'AG.krymgid.theme' theme.
+    You can also use this layer to override default Plone browser views
+    and viewlets only within the 'AG.krymgid.theme' theme.
+  -->
+  <interface
+      interface=".interfaces.IThemeSpecific"
+      type="zope.publisher.interfaces.browser.IBrowserSkinType"
+      name="AG.krymgid.theme"
+      />
+  
+  <!-- Viewlets registration -->
+  <!-- EXAMPLE (UNCOMMENT TO MAKE AVAILABLE):
+  <browser:viewlet
+      name="AG.someviewlet"
+      manager="plone.app.layout.viewlets.interfaces.IPortalFooter"
+      class=".viewlets.MyViewlet"
+      layer=".interfaces.IThemeSpecific"
+      permission="zope2.View"
+      />
+  -->
+
+  <!-- Zope 3 browser resources -->
+
+  <!-- Resource directory for images
+    See AG/theme/browser/images/README.txt
+    for more information about registering images as Zope 3 browser
+    resources.
+  -->
+  <browser:resourceDirectory
+      name="AG.theme.images"
+      directory="images"
+      layer=".interfaces.IThemeSpecific"
+      />
+
+  <!-- Resource directory for stylesheets
+    See AG/theme/browser/stylesheets/README.txt
+    for more information about registering stylesheets as Zope 3 browser
+    resources.
+  -->
+  <browser:resourceDirectory
+      name="AG.theme.stylesheets"
+      directory="stylesheets"
+      layer=".interfaces.IThemeSpecific"
+      />
+
+</configure>
