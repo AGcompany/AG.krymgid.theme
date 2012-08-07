@@ -16,15 +16,15 @@
       of your product (on the filesystem) as Filesystem Directory Views within
       the portal_skins tool, so that they become usable as skin layers.
       -->
- <object name="AG_theme_custom_images"
+ <object name="AG_krymgid_theme_custom_images"
     meta_type="Filesystem Directory View"
-    directory="AG.theme:skins/AG_theme_custom_images"/>
- <object name="AG_theme_custom_templates"
+    directory="AG.krymgid.theme:skins/AG_krymgid_theme_custom_images"/>
+ <object name="AG_krymgid_theme_custom_templates"
     meta_type="Filesystem Directory View"
-    directory="AG.theme:skins/AG_theme_custom_templates"/>
- <object name="AG_theme_styles"
+    directory="AG.krymgid.theme:skins/AG_krymgid_theme_custom_templates"/>
+ <object name="AG_krymgid_theme_styles"
     meta_type="Filesystem Directory View"
-    directory="AG.theme:skins/AG_theme_styles"/>
+    directory="AG.krymgid.theme:skins/AG_krymgid_theme_styles"/>
 
  <!-- A skin-path in this file corresponds to a Skin Selection in the
      'Properties' tab of the portal_skins tool, in the ZMI.
@@ -39,12 +39,12 @@
        "all".
        -->
  <skin-path name="AG.krymgid.theme" based-on="Plone Default">
-  <layer name="AG_theme_custom_images"
+  <layer name="AG_krymgid_theme_custom_images"
      insert-after="custom"/>
-  <layer name="AG_theme_custom_templates"
-     insert-after="AG_theme_custom_images"/>
-  <layer name="AG_theme_styles"
-     insert-after="AG_theme_custom_templates"/>
+  <layer name="AG_krymgid_theme_custom_templates"
+     insert-after="AG_krymgid_theme_custom_images"/>
+  <layer name="AG_krymgid_theme_styles"
+     insert-after="AG_krymgid_theme_custom_templates"/>
  </skin-path>
 
 </object>

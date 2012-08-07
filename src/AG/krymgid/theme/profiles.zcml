@@ -1,7 +1,7 @@
 <configure
     xmlns="http://namespaces.zope.org/zope"
     xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
-    i18n_domain="AG.theme">
+    i18n_domain="AG.krymgid.theme">
 
   <genericsetup:registerProfile
       name="default"
@@ -12,10 +12,10 @@
       />
 
   <genericsetup:importStep
-      name="AG.theme.various"
+      name="AG.krymgid.theme.various"
       title="AG.krymgid.theme: miscellaneous import steps"
       description="Various import steps that are not handled by GS import/export handlers."
-      handler="AG.theme.setuphandlers.setupVarious">
+      handler="AG.krymgid.theme.setuphandlers.setupVarious">
     <depends name="skins"/>
   </genericsetup:importStep>
 

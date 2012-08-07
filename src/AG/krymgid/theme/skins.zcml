@@ -1,12 +1,12 @@
 <configure
     xmlns="http://namespaces.zope.org/zope"
     xmlns:cmf="http://namespaces.zope.org/cmf"
-    i18n_domain="AG.theme">
+    i18n_domain="AG.krymgid.theme">
 
   <!-- File System Directory Views registration -->
-  <cmf:registerDirectory name="AG_theme_custom_images"/>
-  <cmf:registerDirectory name="AG_theme_custom_templates"/>
-  <cmf:registerDirectory name="AG_theme_styles"/>
+  <cmf:registerDirectory name="AG_krymgid_theme_custom_images"/>
+  <cmf:registerDirectory name="AG_krymgid_theme_custom_templates"/>
+  <cmf:registerDirectory name="AG_krymgid_theme_styles"/>
 
   <!-- Note: This could also be done for all folders at once
        by replacing the previous lines with this one:

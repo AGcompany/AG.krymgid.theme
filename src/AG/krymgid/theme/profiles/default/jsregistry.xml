@@ -19,7 +19,7 @@
       -->
 <!-- EXAMPLE (UNCOMMENT TO MAKE AVAILABLE):
  <javascript
-    id="++resource++AG.theme.javascripts/something.js"
+    id="++resource++AG.krymgid.theme.javascripts/something.js"
     cacheable="False" compression="safe" cookable="False"
     enabled="True" expression=""  inline="False"/>
 -->

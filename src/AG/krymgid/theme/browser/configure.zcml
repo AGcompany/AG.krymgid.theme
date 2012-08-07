@@ -1,7 +1,7 @@
 <configure
     xmlns="http://namespaces.zope.org/zope"
     xmlns:browser="http://namespaces.zope.org/browser"
-    i18n_domain="AG.theme">
+    i18n_domain="AG.krymgid.theme">
 
   <!-- 'AG.krymgid.theme' Zope 3 browser layer
     Register views, viewlets and resources for this layer to make sure
@@ -29,23 +29,23 @@
   <!-- Zope 3 browser resources -->
 
   <!-- Resource directory for images
-    See AG/theme/browser/images/README.txt
+    See AG.krymgid.theme/browser/images/README.txt
     for more information about registering images as Zope 3 browser
     resources.
   -->
   <browser:resourceDirectory
-      name="AG.theme.images"
+      name="AG.krymgid.theme.images"
       directory="images"
       layer=".interfaces.IThemeSpecific"
       />
 
   <!-- Resource directory for stylesheets
-    See AG/theme/browser/stylesheets/README.txt
+    See AG.krymgid.theme/browser/stylesheets/README.txt
     for more information about registering stylesheets as Zope 3 browser
     resources.
   -->
   <browser:resourceDirectory
-      name="AG.theme.stylesheets"
+      name="AG.krymgid.theme.stylesheets"
       directory="stylesheets"
       layer=".interfaces.IThemeSpecific"
       />
