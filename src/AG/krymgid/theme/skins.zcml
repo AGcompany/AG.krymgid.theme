@@ -8,9 +8,6 @@
   <cmf:registerDirectory name="AG_krymgid_theme_custom_templates"/>
   <cmf:registerDirectory name="AG_krymgid_theme_styles"/>
 
-  <!-- Note: This could also be done for all folders at once
-       by replacing the previous lines with this one:
   <cmf:registerDirectory name="skins" directory="skins" recursive="True" />
-  -->
 
 </configure>
