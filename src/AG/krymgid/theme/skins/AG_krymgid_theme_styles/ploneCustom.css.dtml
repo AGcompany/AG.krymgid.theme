@@ -178,24 +178,23 @@ dl.portlet ul.navTree li.navTreeCurrentNode a,
 	
 }
 
-#portal-column-content,
+#portal-columns,
 #templatemo_content_right_bottom {
 	
 	float: right;
-	width: 707px;
 	background: #4c4c4c url(images/templatemo_right_bottom.jpg) right bottom no-repeat;
 	margin: 0;
 	padding: 0;
 	
 }
 
-.documentEditable,
+#portal-column-content,
 #templatemo_content_right_top {
 
 	width: 682px;
 	background: url(images/templatemo_right_top.jpg) top no-repeat;
 	margin: 0;
-	padding: 33px 0px 0px 25px;
+	padding: 7px 0 0 25px;
 	
 }
 
