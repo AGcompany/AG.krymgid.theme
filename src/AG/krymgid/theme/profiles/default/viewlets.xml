@@ -38,6 +38,8 @@
 <!-- EXAMPLE (UNCOMMENT TO MAKE AVAILABLE):
     <viewlet name="plone.global_sections" />
 -->
+    <viewlet name="plone.logo" />
+    <viewlet name="plone.global_sections" />
   </hidden>
 
 </object>
