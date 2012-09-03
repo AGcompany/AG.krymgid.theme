@@ -98,10 +98,13 @@ a:active, a:hover { color: #FF0; text-decoration: underline; }
 
 	width: 940px;
 	height: 244px;
-	background: url(images/templatemo_header.jpg) no-repeat;
+	background: url(images/templatemo_header_blank.jpg) no-repeat;
 	margin: 0;
 	padding: 0;
 
+}
+#portal-logo {
+    margin: 6em 0;
 }
 #portal-columns,
 #templatemo_content {
